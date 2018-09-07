@@ -50,18 +50,55 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>GDP & Life Expectancy: Analysing the Data</h1>
+							<h1>Does a better economy mean longer life expectancy?</h1>
 							<span class="image main"><img src="https://raw.githubusercontent.com/danwrisar/danwrisar.github.io/master/images/lifeexec_headerimage.png" alt="" /></span>
+							<p><i>Zimbabwe's GDP has grown by 143.7%, but life expectancy </i></p>
 							<p>A country's gross domestic product (GDP) is a monetary indicator of the market value of the economic product (goods and services) over a period of time. For this reason, GDP has been widely used for comparing nations at a macroeconomic scale since 1934 when Nobel prize winner <a href="https://en.wikipedia.org/wiki/Simon_Kuznets">Simon Kuznets</a> developed the concept for a US Congress report. Does a stronger economy mean better healthcare and thus increasing life expectancy? Not necessarily... Let's find out more!</p>
 							<p><span class="image left"><img src="https://raw.githubusercontent.com/danwrisar/danwrisar.github.io/master/images/gdp_line.png" alt="Violin chart highlighting differences in life expectancy across six different countries" /></span></p>
-							<p><h3>Changing GDP (2000 to 2015)</h3></i>If we analyse the data in Fig 1, we find that of the six countries we are assessing, only one country has signficantly changed over time. The life expectancy of people in Chile, China, Germany, Mexico and the United States of America grew slowly in the 15 years between 2000 and 2015, but the life expectancy in Zimbabwe grew exponentially from an average life expectancy of 46 in 2000 (comparable to the average life expectancy of men in 18th-century <a href="https://en.wikipedia.org/wiki/Edo_period">Edo Japan</a>) to nearly 61 in 2015.  </p>
-							<h2>More money = live longer?</h2><p>While the USA and China have been growing rapidly in terms of GDP, Mexico, Chile and Zimbabwe have been a lot slower, and Germany's GDP has even decreased most recently. Despite this, life expectancy is higher in Chile and Germany than it is in China and the USA. Let's consider Zimbabwe more carefully. What has happened in the last 15 years that has caused the life expectancy to rise so drastically?</p>
-							<div class="col-12"><span class="image fit"><img src="https://raw.githubusercontent.com/danwrisar/danwrisar.github.io/master/images/line_facetgrid_lifeexp.png" alt=""/></span></div>
+							<p><h3>Changing GDP (2000 to 2015)</h3>While the USA and China have been growing rapidly in terms of GDP, Mexico, Chile and Zimbabwe have been a lot slower, and Germany's GDP has even decreased most recently. However, is it possible that the axes we are using to compare across countries may be occluding our ability to see <i>relative</i> rise in GDP? The table below states percentage change in GDP as well as the average change considering the three countries involved in the assessment where change in GDP is not visibly shifting.</p>
+							<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Country</th>
+													<th>Percentage rise in GDP</th>
+													<th>Percentage rise in life expectancy</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Chile</td>
+													<td>211.5</td>
+													<td>4.1</td>
+												</tr>
+												<tr>
+													<td>Mexico</td>
+													<td>68.5</td>
+													<td>2.7</td>
+												</tr>
+												<tr>
+													<td>Zimbabwe</td>
+													<td>143.7</td>
+													<td>32.0</td>
+												</tr>
+												</tbody>
+											<tfoot>
+												<tr>
+													<td>Average (%)</td>
+													<td>12.9</td>
+													<td>141.23</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+							<p>Despite this, life expectancy is higher in Chile and Germany than it is in China and the USA. Let's consider Zimbabwe more carefully. Of the six countries in this analysis, only one country has signficantly changed over time in terms of life expectancy. The life expectancy of people in Chile, China, Germany, Mexico and the United States of America grew slowly in the 15 years between 2000 and 2015, but the life expectancy in Zimbabwe grew exponentially from an average life expectancy of 46 in 2000 (comparable to the average life expectancy of men in 18th-century <a href="https://en.wikipedia.org/wiki/Edo_period">Edo Japan</a>) to nearly 61 in 2015. Zimbabwe has a world life expectancy ranking of 162, with the <a href="http://www.worldlifeexpectancy.com/zimbabwe-life-expectancy">top 20 causes of death</a> including road traffic accidents, malnutrition and HIV/AIDs. The meteoric rise in life expectancy doesn't seem to be correlated to GDP rise, so we needed to do some further investigation</p>
+							<div class="col-12"><span class="image fit"><img src="https://raw.githubusercontent.com/danwrisar/danwrisar.github.io/master/images/line_facetgrid_lifeexp.png" alt=""/></span></div> 
+							<p>What has happened in the last 15 years that has caused the life expectancy to rise so drastically? Speaking to the <a href="https://www.chronicle.co.zw/zim-life-expectancy-shoots-up/"><i>Chronicle</i></a> newspaper in December 2017, the Minister of Health for Zimbabwe, Dr David Parirenyatwa had the following to say:
+								<blockquote>"Zimbabwe had one of the highest HIV/Aids prevalence rates in Africa but we worked so hard that we have the highest drop in HIV statistics on the continent. New infections have dropped drastically. The likelihood of an HIV positive mother giving birth to an HIV positive baby was at 40 percent but because of treatment that we give it’s now at 5.4 percent”</blockquote></p>
+							
 							<h2>More money = live longer?</h2><p>The violin plot visualises data set in terms of how often certain values appear. The white dot represents the median,  the thick black line in the center of each violin represents the interquartile range and the lines that extend from the center are the confidence intervals. While the data from most of the countries show that life expectancy is approximately the same between 2000 and 2015, Zimbabwe's life expectancy in years has increased dramatically.</p>
 							<div class="col-12"><span class="image fit"><img src="https://raw.githubusercontent.com/danwrisar/danwrisar.github.io/master/images/gdp_lifeexp_violin.JPG" alt=""/></span></div>
-							<p>Zimbabwe has a world life expectancy ranking of 162, with the <a href="http://www.worldlifeexpectancy.com/zimbabwe-life-expectancy">top 20 causes of death</a> including road traffic accidents, malnutrition and HIV/AIDs. Speaking to the <a href="https://www.chronicle.co.zw/zim-life-expectancy-shoots-up/"><i>Chronicle</i></a> newspaper in December 2017, the Minister of Health for Zimbabwe, Dr David Parirenyatwa had the following to say:
-								<blockquote>"Zimbabwe had one of the highest HIV/Aids prevalence rates in Africa but we worked so hard that we have the highest drop in HIV statistics on the continent. New infections have dropped drastically. The likelihood of an HIV positive mother giving birth to an HIV positive baby was at 40 percent but because of treatment that we give it’s now at 5,4 percent,”</blockquote>
-							Now Zimbabwe is reckonised as a 'beacon country' of how to combat the HIV/AIDS pandemic, and the continued development of methods alongside state investment in new hospitals, medical centres and staff training suggests that life expectancy may continue to rise in Zimbabwe.
+							<p>	Now, Zimbabwe is reckonised as a 'beacon country' of how to combat the HIV/AIDS pandemic, and the continued development of methods alongside state investment in new hospitals, medical centres and staff training suggests that life expectancy may continue to rise in Zimbabwe.
 							</p>
 						</div>
 					</div>
