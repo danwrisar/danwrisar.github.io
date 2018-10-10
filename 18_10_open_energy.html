@@ -40,7 +40,7 @@
 						<h2>Menu</h2>
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="generic.html">About</a></li>
+							<li><a href="about.html">About</a></li>
 							<li><a href="#contactform">Contact</a></li>
 							<!--<li><a href="generic.html">Consequat dolor</a></li>
 							<li><a href="elements.html">Elements</a></li>-->
@@ -52,71 +52,49 @@
 						<div class="inner">
 							<h1>What is Open Energy?</h1>
 							<span class="image main"><img src="https://raw.githubusercontent.com/danwrisar/danwrisar.github.io/master/images/lifeexec_headerimage.png" alt="" /></span>
-							<p><i>If smart metering is going to revolutionise the aggregation of energy use data, why not share these insights with the user?</i></p>
 							<!-- Intro Paragraph -->
-							<p>(11 September 2018) A good turnout awaited the launch of the <i>Open Banking</i> report authored by Fingleton Associates with support and insights from the Federation of Small Businesses (FSB). If untethering data for access by unaffiliated parties via Open Banking worked for the banking sector, could it work for the energy sector too? Let's pick out the three meta-recommendations made by the report and untangle them:</p> 
+							<p>If releasing banking data for use by approved third parties via Open Banking worked for the banking sector, could it work for the energy sector too? Let’s pick out the three recommendations made by the Open Energy report authored by Fingleton Associates in collaboration with the Federation of Small Businesses (FSB) and untangle how they might revolutionise the energy market.</p> 
 							
 							<!-- Machines are people too  -->
 																				
-							<p><h3>Widening access to... Machines</h3>The first recommendation addresses the lack of standardisation in marketing and tarriff information presented by the Big Six and the independents rapidly building market share:</p>
-							<blockquote>Standardising tariffs and other relevant market information in machine-readable formats to allow automated comparisons of energy tariff offerings</blockquote>
+							<p><h3>Machine learning: Standardising information</h3>The first recommendation addresses the lack of standardisation in marketing and tariff information presented by the Big Six and the independents who rapidly building market share:</p>
+							<blockquote>Standardising tariffs and other relevant market information in machine-readable formats to allow automated comparisons of energy tariff offerings.</blockquote>
+							<p>Machine readability is one of the pillars of the open data movement<sup>1</sup>. In a nutshell, any information that is printed or unstructured cannot be processed easily by a computer, while data that is presented digitally and in a structured format can be crawled and specified data pulled out. This could facilitate comparisons of the varying tariffs offered by the 65 or so energy providers in the UK<sup>2</sup>. In theory, this means that both domestic and commercial customers will have access to all the information they need make the best possible decisions at a specific time. It’s unlikely that even the most engaged energy customer will take full benefit of this new information, personally comparing tariffs daily to find the cheapest, greenest, highest rated (etc.) supplier, see Open Energy’s third recommendation more on this.</p>
 
-							<div class="col-12"><span class="image fit"><img src="https://raw.githubusercontent.com/danwrisar/danwrisar.github.io/master/images/scatter_facetgrid_gdp.png" alt=""/></span></div>	
-							<div class="col-12"><span class="image fit"><img src="https://raw.githubusercontent.com/danwrisar/danwrisar.github.io/master/images/gdp_line_big.png" alt=""/></span></div>	
+							<!-- Restoring the balance -->
 
-							<!-- Zoom in to Zimbabwe -->
-							<h3>Relative growth in GDP vs life expectancy (2000 to 2015)</h3>
+							<p><h3>Restoring the balance: Sharing data</h3>Most of the smart meters that have been installed in the UK as of 2018 are SMETS 1-compliant<sup>3</sup>, meaning that the meter is designed to only send data to a specific supplier. The newer SMETS 2 meters allow customers to witch energy provider without their smart meter losing all its smart functionality, however, the data will continue to flow to the provider where it stops. If the reasoning underlying the first recommendation was that easily accessible information can support better decision making, what could be the impact of more data? The second recommendation from Open Energy seeks to increase transparency:</p>
+							<blockquote>Making smart meter data available through a secure standardised API to approved third parties.</blockquote>
+							<p>Sharing data has been shown to be a valuable method of improving customer experience in markets such as transport (applications like Citymapper uses Transport for London’s open bus and underground schedule for route planning) and banking (applications like Yolt aggregate balances from across bank account and offer spending insights and marketing information on new accounts). What caught my attention was that this data would be available for use by approved third parties. This is common practice and makes sense when considering the sensitive nature of the data, however, thinking about the value of knowing what households are doing and when, will product and service marketers be excluded from access to smart meter data? </p>
 							
-							<p>The table below states percentage change in GDP as well as the average change considering the three countries involved in the assessment where change in GDP is not visibly shifting. If we zoom in, we can see that the GDP of Chile and Mexico is visibly rising, but it's still hard to see a rise for GDP in Zimbabwe (despite the data highlighting a considerable relative rise). This suggests that Zimbabwe's GDP is still a lot lower than the other countries in the assessment.</p>
-							
-							<p><span class="image left"><img src="https://raw.githubusercontent.com/danwrisar/danwrisar.github.io/master/images/gdp_line_chimexzim.png" alt="Violin chart highlighting differences in life expectancy across six different countries" /></span></p>
-							<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Country</th>
-													<th>Percentage rise in GDP</th>
-													<th>Percentage rise in life expectancy</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Chile</td>
-													<td>211.5</td>
-													<td>4.1</td>
-												</tr>
-												<tr>
-													<td>Mexico</td>
-													<td>68.5</td>
-													<td>2.7</td>
-												</tr>
-												<tr>
-													<td>Zimbabwe</td>
-													<td>143.7</td>
-													<td>32.0</td>
-												</tr>
-												</tbody>
-											<tfoot>
-												<tr>
-													<td>Average (%)</td>
-													<td>141.3</td>
-													<td>12.9</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-														
-							<p>Inspite of reduced GDP, life expectancy is higher in Chile and Germany than it is in China and the USA. Let's consider Zimbabwe more carefully. Of the six countries in this analysis, Zimbabwe is the only country has changed over time so drastically in terms of life expectancy. The life expectancy of people in Chile, China, Germany, Mexico and the United States of America grew slowly in the 15 years between 2000 and 2015, but the life expectancy in Zimbabwe grew exponentially from an average life expectancy of 46 in 2000 (comparable to the average life expectancy of men in 18th-century <a href="https://en.wikipedia.org/wiki/Edo_period">Edo Japan</a>) to nearly 61 in 2015. Zimbabwe has a world life expectancy ranking of 162, with the <a href="http://www.worldlifeexpectancy.com/zimbabwe-life-expectancy">top 20 causes of death</a> including road traffic accidents, malnutrition and HIV/AIDs. The meteoric rise in life expectancy doesn't seem to be correlated to GDP rise, so we needed to do some further investigation</p>
+							<!-- Energy contracts -->
 
-							<div class="col-12"><span class="image fit"><img src="https://raw.githubusercontent.com/danwrisar/danwrisar.github.io/master/images/line_facetgrid_lifeexp.png" alt=""/></span></div> 
+							<p><h3>Energy contracts that work for you: Delegating control</h3>For suppliers this new information will allow for time-of-use tariffs based on energy price signals. With accurate information about when energy is being used, engaged domestic customers may be able to loadshift their daily activities such as washing or hot water heating to times of low demand (such as late nights) when on a tariff that has cheaper off-peak energy. As touched upon earlier, Open Energy’s third recommendation hits upon a potential means of fairer energy bills for all:</p>
+							<blockquote>Allowing energy customers to delegate contract switching powers to third party intermediaries.</blockquote>
+							<p>It is already possible to opt-in to delegating control of energy supplier switching to third parties (such as Labrador), but what if customers were required to opt-out of automatic supplier switching? If customers were to automatically switch to the tariff which suited their preferences<sup>4</sup> (elected by a system which benefits from machine-readable information), this could mean that hundreds of thousands of households avoid overpaying on their energy bills. This overpayment was estimated to be approximately £2billion in 2015<sup>5</sup> and it could be argued that would mean a revenue cut for energy suppliers…</p>
 
-							<p>What has happened in the last 15 years that has caused the life expectancy to rise so drastically? Speaking to the <a href="https://www.chronicle.co.zw/zim-life-expectancy-shoots-up/"><i>Chronicle</i></a> newspaper in December 2017, the Minister of Health for Zimbabwe, Dr David Parirenyatwa had the following to say:
-								<blockquote>"Zimbabwe had one of the highest HIV/Aids prevalence rates in Africa but we worked so hard that we have the highest drop in HIV statistics on the continent. New infections have dropped drastically. The likelihood of an HIV positive mother giving birth to an HIV positive baby was at 40 percent but because of treatment that we give it’s now at 5.4 percent”</blockquote></p>
-							
-							<h3>More money = live longer?</h3><p>The violin plot visualises data set in terms of how often certain values appear. The white dot represents the median,  the thick black line in the center of each violin represents the interquartile range and the lines that extend from the center are the confidence intervals. While the data from most of the countries show that life expectancy is approximately the same between 2000 and 2015, Zimbabwe's life expectancy in years has increased dramatically.</p>
-							<div class="col-12"><span class="image fit"><img src="https://raw.githubusercontent.com/danwrisar/danwrisar.github.io/master/images/gdp_lifeexp_violin.JPG" alt=""/></span></div>
-							<p>Now, Zimbabwe is reckonised as a 'beacon country' of how to combat the HIV/AIDS pandemic, and the continued development of methods alongside state investment in new hospitals, medical centres and staff training suggests that life expectancy may continue to rise in Zimbabwe.</p>
-							<p><h3>Further Research</h3>It's important to consider the dataset and the tools used for this analysis. Specifically, the pandas and seaborn packages within python and jupyter notebooks to conduct the analysis. A higher resolution of data (e.g. monthly or by locality) could support policy makers and data scientists to better understand where the issues might be for developing countries. When considering fiurther research, it would be a valid course to investigate correlations between <a href="http://theconversation.com/beyond-gdp-are-there-better-ways-to-measure-well-being-33414">alternative measures of economic growth</a> and critical area spending (e.g. spending on healthcare infrastructure).</p>
+							<!-- Opinion -->
+
+							<p><h3>Opinion</h3>For suppliers this new information will allow for time-of-use tariffs based on energy price signals. With accurate information about when energy is being used, engaged domestic customers may be able to loadshift their daily activities such as washing or hot water heating to times of low demand (such as late nights) when on a tariff that has cheaper off-peak energy. As touched upon earlier, Open Energy’s third recommendation hits upon a potential means of fairer energy bills for all.</p>
+
+							<!-- Footnotes and Glossary -->
+
+							<p><h3>Footnotes</h3>
+								<ol>
+									<li><a href=http://opendatahandbook.org/glossary/en/terms/machine-readable/>The Open Data Handbook</a></li>
+									<li><a href=https://www.loveenergysavings.com/energy-suppliers/>Love Energy Savings - List of UK Energy Suppliers</a></li>
+									<li><a href=https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/381535/SMIP_E2E_SMETS2.pdf/>Department of Energy and Climate Change. (2014). Smart metering equipment technical specifications version 1.58</a></li>
+									<li>For example, some energy customers may be less concerned about price and more interested in their energy coming from renewable sources.</li>
+									<li><a href=https://assets.publishing.service.gov.uk/media/5773de34e5274a0da3000113/final-report-energy-market-investigation.pdf>Competition & Markets Authority. (2016). Energy market investigation </a></li>
+								</ol>	
+								<h3>Glossary</h3>
+								<ul>
+									<li>Unstructured data: While logically structured data can be automatically machine-read through inferences and pattern detection, unstructured data appears as messy to a computer and it may be harder to extract the required data. An example of structured data is an xml-formatted file, while PDF documents are considered unstructured - the underlying code dictates visual positioning rather than structure.</li>
+									<li>Page crawling: Programmed bots can be used to index the information on a page to enable extraction and summation of machine-readable text. Internet search providers use spiders to crawl millions of webpages, providing ranking of relevance to different terms and presenting the pages in order of relevance when a user inputs a search term.</li>
+									<li>Application programming interfaces (APIs) are tools for building new programmes utilising an existing framework or database (for example). This allows developers to use underlying data but adding new functionality or interpretation of the data.   </li>
+									<li>Price signals: Time-of-use data recorded by smart meters can be valuable for more than just suppliers and grid controllers. Through each day, there will be periods where energy is in low demand but there is high supply, and conversely times of the day when energy is relative scarce. In other markets, price signals are used to influence consumption, and in the energy market this could mean that energy becomes cheap to use at certain times of the day to motivate customers to use energy in these periods. </li>
+								</ul>
+
 						</div>
 					</div>
 
